@@ -12,6 +12,9 @@ from flask import Flask, render_template, request
 df = pd.read_csv('../data/titanic.csv')
 df['Title'] = df['Name'].apply(lambda x: x.split(',')[1].strip().split(' ')[0])
 
+
+app = Flask(__name__)
+
 # ----------------
 palette = ['#ba32a0', '#f85479', '#f8c260', '#00c2ba']
 
@@ -53,9 +56,6 @@ def plot_styler(p):
 
 
 # ----------------
-app = Flask(__name__)
-
-
 @app.route('/', methods=['GET', 'POST'])
 def chart():
     selected_class = request.form.get('dropdown-select')

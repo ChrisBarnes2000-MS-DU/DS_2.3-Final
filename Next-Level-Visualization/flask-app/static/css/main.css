@@ -1,15 +1,18 @@
+body {
+  background-color: #fbfbf8;
+}
 .submit-btn {
-    padding:8px 16px;
-    border-radius:4px;
-    margin-left:8px;
-    background-color:#ba32a0;
-    border:2px solid #fff;
-    color:#fff;
-    font-weight:bold;
-    transition: 0.2s;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-left: 8px;
+  background-color: #444;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.2s;
 }
 
 .submit-btn:hover {
-    background-color:#fff;
-    color:#ba32a0;
+  background-color: #fff;
+  color: #444;
 }
