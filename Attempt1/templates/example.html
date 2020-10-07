@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Flask-Charts Example</title>
+        {{ init_charts }}
+        <script type="text/javascript" src="{{ url_for('static', filename='example.js') }}"></script>
+    </head>
+    <body>
+        <h2>Pie Chart</h2>
+        {{ pizza_chart() }}
+        {{ random_chart() }}
+    </body>
+</html>
