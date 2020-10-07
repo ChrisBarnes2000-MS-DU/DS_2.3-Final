@@ -16,3 +16,9 @@ pip install numpy pandas bokeh==1.2.0 flask
 cd Next-Level-Visualization/flask-app
 python3 app.py
 ```
+
+### Resources
+
+- https://developers.google.com/chart/interactive/docs/gallery
+- https://towardsdatascience.com/https-medium-com-radecicdario-next-level-data-visualization-dashboard-app-with-bokeh-flask-c588c9398f98
+- https://github.com/albinmedoc/flask-charts
